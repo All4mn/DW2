@@ -89,7 +89,7 @@ console.log(newSalario(800.01));
 console.log(newSalario(2000));
 
 //4)---------------------------------
-
+console.log("EX4");
 function palindromo(palavra) {
   p1 = palavra;
   p2 = palavra.split("").reverse().join("");
