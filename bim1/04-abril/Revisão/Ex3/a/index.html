@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .minhaClasse {
+        color: green;
+      }
+    </style>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1 id="tituloPrincipal">Título Principal</h1>
+
+    <div id="minhaDiv">
+      <p class="minhaClasse">parágrafo com classe</p>
+      <p>parágrafo</p>
+    </div>
+
+    <button onclick="capturarComId()">Capturar com getElementById</button>
+    <button onclick="capturarComClasse()">
+      Capturar com getElementsByClassName
+    </button>
+    <button onclick="capturarComTag()">
+      Capturar com getElementsByTagName
+    </button>
+    <button onclick="capturarComQuerySelector()">
+      Capturar com querySelector
+    </button>
+    <button onclick="capturarComQuerySelectorAll()">
+      Capturar com querySelectorAll
+    </button>
+  </body>
+</html>
