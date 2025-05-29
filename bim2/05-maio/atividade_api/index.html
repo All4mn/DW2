@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Procura Livros</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css" />
     <script src="script.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Procura Livros</h1>
     <div>
-        <label for="isbn">ISBN:</label>
-        <input type="number" id="isbn" name="isbn" placeholder="digite o codigo ISBN">
-        <button onclick="">pesquisar</button>
+      <label for="isbn">ISBN:</label>
+      <input
+        type="number"
+        id="isbn"
+        name="isbn"
+        placeholder="digite o codigo ISBN"
+      />
+      <button onclick="buscarLivro()">pesquisar</button>
     </div>
     <div>
-        <h2>Dados:</h2>
-        <label for="">titulo do livro:</label>
-        <div id="titulo"></div>
-        <label for="">autor(es):</label>
-        <div id="autor"></div>
-        <label for="">publicadora:</label>
-        <div id="publicadora"></div>
-        <label for="">ano de lançamento:</label>
-        <div id="ano"></div>
-        <label for="">número d páginas:</label>
-        <div id="paginas"></div>
-        <label for="">onde se pode encontrar:</label>
-        <div id="localizacao"></div>
+      <h2>Dados:</h2>
+      <label for="">titulo do livro:</label>
+      <div id="titulo"></div>
+      <label for="">autor(es):</label>
+      <div id="autor"></div>
+      <label for="">publicadora:</label>
+      <div id="publicadora"></div>
+      <label for="">ano de lançamento:</label>
+      <div id="ano"></div>
+      <label for="">número d páginas:</label>
+      <div id="paginas"></div>
+      <label for="">onde se pode encontrar:</label>
+      <div id="localizacao"></div>
     </div>
-</body>
+  </body>
 </html>
