@@ -1,7 +1,7 @@
-const isbn = document.getElementById("isbn").value;
-const url = `https://brasilapi.com.br/api/isbn/v1/${isbn}`;
-
 function buscarLivro() {
+  const isbn = document.getElementById("isbn").value;
+  const url = `https://brasilapi.com.br/api/isbn/v1/${isbn}`;
+  
   fetch(url)
     .then((response) => {
       return response.json();
