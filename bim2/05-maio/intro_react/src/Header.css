@@ -1,9 +1,9 @@
 .app-header{
     background-color: darkblue;
+    width: 100vw;
     color: whitesmoke;
     text-align: center;
     padding: 3px;
     font-size: large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    border-radius: 10px;
 }

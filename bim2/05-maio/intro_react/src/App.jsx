@@ -1,11 +1,14 @@
-import './header'
+import './Header'
+import './Footer'
 import './App.css'
-import Header from './header'
+import Header from './Header'
+import Footer from './Footer'
 
 function App() {
   return(
     <div className='app'>
       <Header/>
+      <Footer/>
     </div>
   )
 }

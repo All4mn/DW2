@@ -1,9 +1,9 @@
-import './header.css'
+import './Header.css'
 
 function Header(){
     return(
         <header className="app-header">
-            <h1>Bem-vindo Chefe!</h1>
+            <h1>Bem-vindo á Página com componentes em React!</h1>
         </header>
     )
 }
