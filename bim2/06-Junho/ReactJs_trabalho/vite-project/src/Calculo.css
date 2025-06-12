@@ -1,0 +1,27 @@
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#container {
+}
+#box {
+  justify-content: space-around;
+  background-color: whitesmoke;
+  border: 3px solid royalblue;
+  border-radius: 10px;
+  width: 25vw;
+  height: 25vh;
+}
+input {
+  width: 10vw;
+  height: 2vh;
+}
+button {
+  background-color: royalblue;
+  cursor: pointer;
+  color: whitesmoke;
+  width: 10vw;
+  height: 2vh;
+}
