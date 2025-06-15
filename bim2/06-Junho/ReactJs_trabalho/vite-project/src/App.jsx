@@ -1,15 +1,13 @@
-import './App.css'
-import Calcular from './Calculo'
+import "./App.css";
+import Calcular from "./Calculo";
 
 function App() {
-  return(
-    <div>
-      <h1>Calculadora IMC</h1>
-      <Calcular/>
-
+  return (
+    <div id="container">
+      <h1>Calculadora de IMC</h1>
+      <Calcular />
     </div>
-  )
- 
+  );
 }
 
-export default App
+export default App;

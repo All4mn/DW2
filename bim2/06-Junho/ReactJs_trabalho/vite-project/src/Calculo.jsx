@@ -22,7 +22,7 @@ export default function Calcular() {
   }
 
   return (
-    <div id="container">
+    <div>
       <div id="box">
         <div>
           <p>IMC</p>
@@ -46,7 +46,7 @@ export default function Calcular() {
           Calcular IMC
         </button>
       </div>
-      <div>
+      <div id="box2">
         <p>Seu IMC: {imc}</p>
         <p>Categoria: {resultado}</p>
       </div>
