@@ -7,13 +7,12 @@ function App() {
 
   //chamada assincrona
   const consultaTarefas = async ()=>{
-    const [data, error] = await supabaseClient
+    const data = await supabaseClient
                       .from('tarefas')
                       .select('*')
                       
-    // console.log(data)
-    // console.log(error)
-    // setTarefas(data)
+    console.log(data)
+    setTarefas(data)
   }
 
   return (
